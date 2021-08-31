@@ -28,4 +28,12 @@ public class BusinessAccount extends Account {
 		}
 	}
 
+	@Override
+	public String toString() {
+		return "BusinessAccount loanLimit = " + loanLimit + "\nNumber = " + getNumber() + "\nHolder = "
+				+ getHolder() + "\nBalance = " + getBalance();
+	}
+
+	
+
 }
